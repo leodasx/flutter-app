@@ -47,8 +47,8 @@ class _MainDashboardState extends State<MainDashboard>
         CurvedAnimation(parent: _animationController, curve: Curves.easeOut));
 
     _geofenceService = GeofenceService(
-      centerLat: 9.413304,
-      centerLng: 76.641557,
+      centerLat: 9.413265,
+      centerLng: 76.641440,
       radiusInMeters: 50,
     );
 
